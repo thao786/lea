@@ -55,26 +55,24 @@ body {
 
 /* Main Menu */
 #left {
-	width: 25%;
+	width: 20%;
 	float: left;
 	min-height: 615px;
 	position: relative;
-	padding:30px 10px 30px 10px;	
 }
-#left ul li{
-	background-color: #333840;
-	padding: 10px 20px 10px 20px;
-	color: white;
-	border-top:solid 1px #d3d4d4;
-	width: 100%;
-	border-left: solid 5px #ecd05c;	
+#left ul li{	
 	font-family: 'Merriweather', serif;
 	font-size: 15px;
-	border-top-right-radius: 10px;
+	list-style-type: none;
+	display: list-item;
 }
 #left a{
-	color:white;
+	color:grey;
 }
+#left a:hover{
+	color:black;
+}
+
 
 /*-------------------*/
 /*   RIGHT CONTENT   */
@@ -82,8 +80,15 @@ body {
 
 /* Thumbnail Gallery Content*/
 #right {
-	width: 75%;
+	width: 80%;
 	float: right;
+}
+#right h3{
+	color:#707070;
+  	font-weight: 900;
+  	font-size: 20px;  	
+  	font-family: 'Merriweather', serif;
+  	margin-left: 30px;
 }
 #right .thumbnails {
 	overflow: hidden;
